@@ -1,0 +1,17 @@
+{
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Character Count ",
+      "identifier": "charactercount",
+      "script": "./script.js"
+    }
+  ],
+  "menu": {
+    "title": "Character Count",
+    "isRoot": true,
+    "items": [
+      "charactercount"
+    ]
+  }
+}
