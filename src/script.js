@@ -56,9 +56,10 @@ function createTextLabel(string,frame) {
 	var field = NSTextField.alloc().initWithFrame(frame);
 
 	field.setStringValue(string);
-	field.setFont(NSFont.systemFontOfSize(9));
-	field.setTextColor(NSColor.colorWithCalibratedRed_green_blue_alpha(0,0,0,0.4));
+	field.setFont(NSFont.systemFontOfSize(12));
+	field.setTextColor(NSColor.colorWithCalibratedRed_green_blue_alpha(0,0,0,0.7));
 	field.setBezeled(0);
+	field.setBackgroundColor(NSColor.windowBackgroundColor());
 	field.setEditable(0);
 
 	return field;
@@ -73,14 +74,12 @@ export default function() {
 	var panel = createFloatingPanel(pluginName,NSMakeRect(0,0,panelWidth,panelHeight));
 	var panelContent = createView(NSMakeRect(0,0,panelWidth,panelHeight - panelHeader));
 	
-	var box = createBox(NSMakeRect(16,4,container,148));
-	// var copy = createButton('Copy',NSMakeRect(0,0,70,20));
+	var box = createBox(NSMakeRect(16,4,container,145));
+	var copyLabel = createTextLabel('Easily copy values and sent to your writer', NSMakeRect(16,163,250,20));
+	var copyButton = createButton('Copy',NSMakeRect(260,162,70,23));
 	
-	[box].forEach(i => panelContent.addSubview(i));
+	[box, copyLabel, copyButton].forEach(i => panelContent.addSubview(i));
 
 	panel.contentView().addSubview(panelContent);
-
-    // NSApplication.sharedApplication().displayDialog_withTitle("hello", "Count")
-    sketch.UI.message('👋 Welcome to Character Count Plugin')
   }
 }
