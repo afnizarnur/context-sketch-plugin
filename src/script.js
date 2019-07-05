@@ -139,10 +139,10 @@ function createMainView(characters, words, paragraphs) {
 
   copyButton.setCOSJSTargetFunction(function() {
     var pasteBoard = NSPasteboard.generalPasteboard()
-    var content = ""
+    var content = characters + "," + words + "," + paragraphs
 
     pasteBoard.clearContents()
-    pasteBoard.writeObjects([result])
+    pasteBoard.writeObjects([content])
 
     sketch.UI.message("Copied!")
   })
