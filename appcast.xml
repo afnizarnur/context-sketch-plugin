@@ -8,7 +8,7 @@
 		<item>
 			<title>Version 0.1.0</title>
 			<description></description>
-			<enclosure url="https://github.com/afnizarnur/character-count/archive/master.zip" sparkle:version="1.14" />
+			<enclosure url="https://github.com/afnizarnur/character-count/archive/master.zip" sparkle:version="0.1.0" />
 		</item>
 	</channel>
 </rss>
