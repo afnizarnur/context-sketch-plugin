@@ -13,6 +13,10 @@
       "assets/**/*"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afnizarnur/character-count.git"
+  },
   "scripts": {
     "build": "skpm-build",
     "watch": "skpm-build --watch",
