@@ -3,12 +3,12 @@
 	<channel>
 		<title>Character Count</title>
 		<link>http://sparkle-project.org/files/sparkletestcast.xml</link>
-		<description>Count character, words, and paragraphs from a text layer easily inside Sketch!</description>
+		<description>Count characters, words, and paragraphs from a text layer easily inside Sketch!</description>
 		<language>en</language>
 		<item>
-			<title>Version 0.1.0</title>
+			<title>Version 1.0.0</title>
 			<description></description>
-			<enclosure url="https://github.com/afnizarnur/character-count/archive/master.zip" sparkle:version="0.1.0" />
+			<enclosure url="https://github.com/afnizarnur/character-count/archive/master.zip" sparkle:version="1.0.0" />
 		</item>
 	</channel>
 </rss>

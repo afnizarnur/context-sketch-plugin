@@ -92,7 +92,24 @@ function createTextValueLabel(string, frame) {
   return field;
 }
 
+function checkPluralSigular(value) {
+  if (value > 1) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 function createMainView(characters, words, paragraphs) {
+  var charactersLabel, wordsLabel, paragraphsLabel;
+  checkPluralSigular(characters)
+    ? (charactersLabel = "Characters")
+    : (charactersLabel = "Character");
+  checkPluralSigular(words) ? (wordsLabel = "Words") : (wordsLabel = "Word");
+  checkPluralSigular(paragraphs)
+    ? (paragraphsLabel = "Paragraphs")
+    : (paragraphsLabel = "Paragraph");
+
   var panel = createFloatingPanel(
     pluginName,
     NSMakeRect(0, 0, panelWidth, panelHeight)
@@ -110,10 +127,10 @@ function createMainView(characters, words, paragraphs) {
     characters,
     NSMakeRect(35, 55, 120, 15)
   );
-  var labelWords = createTextDataLabel("Words", NSMakeRect(35, 85, 120, 15));
+  var labelWords = createTextDataLabel(wordsLabel, NSMakeRect(35, 85, 120, 15));
   var valueWords = createTextValueLabel(words, NSMakeRect(35, 105, 120, 15));
   var labelParagraph = createTextDataLabel(
-    "Paragraph",
+    paragraphsLabel,
     NSMakeRect(160, 85, 120, 15)
   );
   var valueParagraph = createTextValueLabel(
@@ -144,11 +161,18 @@ function createMainView(characters, words, paragraphs) {
     var content =
       "It's " +
       characters +
-      " characters, " +
+      " " +
+      charactersLabel.toLowerCase() +
+      ", " +
       words +
-      " words, and " +
+      " " +
+      wordsLabel.toLowerCase() +
+      ", " +
+      " and " +
       paragraphs +
-      " paragraphs.";
+      " " +
+      paragraphsLabel.toLowerCase() +
+      ".";
 
     pasteBoard.clearContents();
     pasteBoard.writeObjects([content]);
