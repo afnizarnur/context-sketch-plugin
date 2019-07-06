@@ -1,4 +1,10 @@
 {
+  "name": "Character Count",
+  "description": "Count character, words, and paragraphs from a text layer easily inside Sketch!",
+  "author": "Afnizar Nur Ghifari",
+  "homepage": "https://github.com/afnizarnur/character-count",
+  "version": "0.1.0",
+  "identifier": "com.afnizarnur.sketchplugins.character-count",
   "icon": "icon.png",
   "commands": [
     {

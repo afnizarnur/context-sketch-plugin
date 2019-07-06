@@ -1,5 +1,5 @@
 {
-  "name": "charactercount",
+  "name": "character-count",
   "description": "",
   "version": "0.1.0",
   "engines": {
@@ -8,11 +8,10 @@
   "skpm": {
     "name": "Character Count",
     "manifest": "src/manifest.json",
-    "main": "charactercount.sketchplugin",
+    "main": "character-count.sketchplugin",
     "assets": [
       "assets/**/*"
-    ],
-    "sketch-assets-file": "sketch-assets/icons.sketch"
+    ]
   },
   "scripts": {
     "build": "skpm-build",

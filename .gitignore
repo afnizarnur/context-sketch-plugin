@@ -1,5 +1,5 @@
 # build artifacts
-charactercount.sketchplugin
+character-count.sketchplugin
 
 # npm
 node_modules

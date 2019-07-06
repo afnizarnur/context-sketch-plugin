@@ -142,10 +142,11 @@ function createMainView(characters, words, paragraphs) {
   copyButton.setCOSJSTargetFunction(function() {
     var pasteBoard = NSPasteboard.generalPasteboard();
     var content =
+      "It's " +
       characters +
       " characters," +
       words +
-      " words, and" +
+      " words, and " +
       paragraphs +
       " paragraphs.";
 
