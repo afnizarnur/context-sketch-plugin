@@ -1,6 +1,6 @@
 {
   "name": "character-count",
-  "description": "",
+  "description": "Count character, words, and paragraphs from a text layer easily inside Sketch!",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
