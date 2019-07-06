@@ -5,6 +5,7 @@
   "homepage": "https://github.com/afnizarnur/character-count",
   "version": "0.1.0",
   "identifier": "com.afnizarnur.sketchplugins.character-count",
+  "appcast": "https://raw.githubusercontent.com/afnizarnur/character-count/master/appcast.xml",
   "icon": "icon.png",
   "commands": [
     {
