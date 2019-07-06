@@ -8,7 +8,7 @@
   "skpm": {
     "name": "Character Count",
     "manifest": "src/manifest.json",
-    "main": "character-count.sketchplugin",
+    "main": "Character Count.sketchplugin",
     "assets": [
       "assets/**/*"
     ]

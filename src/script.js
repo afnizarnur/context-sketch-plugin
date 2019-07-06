@@ -144,7 +144,7 @@ function createMainView(characters, words, paragraphs) {
     var content =
       "It's " +
       characters +
-      " characters," +
+      " characters, " +
       words +
       " words, and " +
       paragraphs +
