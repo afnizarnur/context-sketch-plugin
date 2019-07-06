@@ -14,7 +14,7 @@
 </div>
 
 ## Installation
-There are two options to install this plugin. First option is to search for Character Count in [Sketch Runner](http://sketchrunner.com/) or [Sketchpacks](https://sketchpacks.com/). The second option is to download this plugin directly from GitHub and double click on `Character Count.sketchplugin` file to install it on your machine.
+There are two options to install this plugin. First option is to search for Character Count in [Sketch Runner](http://sketchrunner.com/) or [Sketchpacks](https://sketchpacks.com/). The second option is to download this plugin directly from [GitHub](https://github.com/afnizarnur/character-count/releases) and after that, double click on `Character Count.sketchplugin` file to install it on your machine.
 
 Once installed, Sketch will automatically notify you when an update is available.
 
