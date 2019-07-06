@@ -1,6 +1,3 @@
-# build artifacts
-character count.sketchplugin
-
 # npm
 node_modules
 .npm
