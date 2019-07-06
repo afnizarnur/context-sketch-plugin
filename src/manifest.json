@@ -7,6 +7,8 @@
   "identifier": "com.afnizarnur.sketchplugins.character-count",
   "appcast": "https://raw.githubusercontent.com/afnizarnur/character-count/master/appcast.xml",
   "icon": "icon.png",
+  "compatibleVersion": "3.0",
+  "bundleVersion": "1.0",
   "commands": [
     {
       "name": "Character Count ",
