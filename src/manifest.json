@@ -3,7 +3,7 @@
   "description": "Count characters, words, and paragraphs from a text layer easily inside Sketch!",
   "author": "Afnizar Nur Ghifari",
   "homepage": "https://github.com/afnizarnur/context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "identifier": "com.afnizarnur.sketchplugins.context",
   "appcast": "https://raw.githubusercontent.com/afnizarnur/context/master/appcast.xml",
   "icon": "icon.png",
