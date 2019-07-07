@@ -9,7 +9,7 @@
 
 <div align="center">
     <a href="https://github.com/afnizarnur/context">
-      <img src="https://user-images.githubusercontent.com/4648648/60761166-35712e00-a06d-11e9-95ee-af85a807acfb.png" />
+      <img src="https://user-images.githubusercontent.com/4648648/60765799-25d40280-a0ca-11e9-933d-96b4bbf53fee.png" />
     </a>
 </div>
 
