@@ -1,21 +1,21 @@
 {
-  "name": "character-count",
+  "name": "context",
   "description": "Count characters, words, and paragraphs from a text layer easily inside Sketch!",
   "version": "1.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "Character Count",
+    "name": "Context",
     "manifest": "src/manifest.json",
-    "main": "Character Count.sketchplugin",
+    "main": "Context.sketchplugin",
     "assets": [
       "assets/**/*"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afnizarnur/character-count.git"
+    "url": "git+https://github.com/afnizarnur/context.git"
   },
   "scripts": {
     "build": "skpm-build",
@@ -28,9 +28,9 @@
   },
   "author": "Afnizar Nur Ghifari <afnizarhilmi@gmail.com>",
   "bugs": {
-    "url": "https://github.com/afnizarnur/character-count/issues"
+    "url": "https://github.com/afnizarnur/context/issues"
   },
-  "homepage": "https://github.com/afnizarnur/character-count#readme",
+  "homepage": "https://github.com/afnizarnur/context#readme",
   "main": "index.js",
   "dependencies": {},
   "license": "MIT",

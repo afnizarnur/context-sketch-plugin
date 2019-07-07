@@ -1,26 +1,26 @@
 {
-  "name": "Character Count",
+  "name": "Context",
   "description": "Count characters, words, and paragraphs from a text layer easily inside Sketch!",
   "author": "Afnizar Nur Ghifari",
-  "homepage": "https://github.com/afnizarnur/character-count",
+  "homepage": "https://github.com/afnizarnur/context",
   "version": "1.0.0",
-  "identifier": "com.afnizarnur.sketchplugins.character-count",
-  "appcast": "https://raw.githubusercontent.com/afnizarnur/character-count/master/appcast.xml",
+  "identifier": "com.afnizarnur.sketchplugins.context",
+  "appcast": "https://raw.githubusercontent.com/afnizarnur/context/master/appcast.xml",
   "icon": "icon.png",
   "compatibleVersion": "3.0",
   "bundleVersion": "1.0",
   "commands": [
     {
-      "name": "Character Count ",
-      "identifier": "charactercount",
+      "name": "Context",
+      "identifier": "context",
       "script": "./script.js"
     }
   ],
   "menu": {
-    "title": "Character Count",
+    "title": "Context",
     "isRoot": true,
     "items": [
-      "charactercount"
+      "context"
     ]
   }
 }

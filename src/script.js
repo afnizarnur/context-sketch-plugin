@@ -2,7 +2,7 @@ import sketch from "sketch";
 
 COScript.currentCOScript().setShouldKeepAround(true);
 
-var pluginName = "Character Count";
+var pluginName = "Context";
 var panelHeader = 44;
 var panelHeight = 242;
 var panelWidth = 343;
@@ -92,7 +92,7 @@ function createTextValueLabel(string, frame) {
   return field;
 }
 
-function checkPluralSigular(value) {
+function checkPluralSingular(value) {
   if (value > 1) {
     return true;
   } else {
@@ -102,11 +102,11 @@ function checkPluralSigular(value) {
 
 function createMainView(characters, words, paragraphs) {
   var charactersLabel, wordsLabel, paragraphsLabel;
-  checkPluralSigular(characters)
+  checkPluralSingular(characters)
     ? (charactersLabel = "Characters")
     : (charactersLabel = "Character");
-  checkPluralSigular(words) ? (wordsLabel = "Words") : (wordsLabel = "Word");
-  checkPluralSigular(paragraphs)
+  checkPluralSingular(words) ? (wordsLabel = "Words") : (wordsLabel = "Word");
+  checkPluralSingular(paragraphs)
     ? (paragraphsLabel = "Paragraphs")
     : (paragraphsLabel = "Paragraph");
 
