@@ -9,6 +9,17 @@ var panelWidth = 343;
 var panelGutter = 16 * 2;
 var container = panelWidth - panelGutter;
 
+var successMessage = [
+  "Nice job! You can send it to your writer now.",
+  "Abrakadabra, copied!",
+  "Bon voyage! Your writer is waiting, send to them now.",
+  "Roger that, copied to your pasteboard!",
+  "Woo-hoo! Really well done. It's copied.",
+  "Nicely done! The values copied.",
+  "Yay! The values copied.",
+  "Selamat! The values copied to your pasteboard."
+];
+
 function createFloatingPanel(title, frame) {
   var panel = NSPanel.alloc().init();
   panel.setTitle(title);
@@ -100,6 +111,11 @@ function checkPluralSingular(value) {
   }
 }
 
+function randomizeSuccessMessage() {
+  var random = Math.floor(Math.random() * successMessage.length);
+  return successMessage[random];
+}
+
 function createMainView(characters, words, paragraphs) {
   var charactersLabel, wordsLabel, paragraphsLabel;
   checkPluralSingular(characters)
@@ -168,7 +184,7 @@ function createMainView(characters, words, paragraphs) {
       " " +
       wordsLabel.toLowerCase() +
       ", " +
-      " and " +
+      "and " +
       paragraphs +
       " " +
       paragraphsLabel.toLowerCase() +
@@ -177,7 +193,7 @@ function createMainView(characters, words, paragraphs) {
     pasteBoard.clearContents();
     pasteBoard.writeObjects([content]);
 
-    sketch.UI.message("✅ Copied!");
+    sketch.UI.message("✅ " + randomizeSuccessMessage());
     panel.close();
   });
 
@@ -191,7 +207,9 @@ export default function() {
   var paragraphs = 0;
 
   if (!text || text.class() != "MSTextLayer" || context.selection.length > 1) {
-    sketch.UI.message("⚠️ Please select a text layer to count the character.");
+    sketch.UI.message(
+      "⚠️ Please select one or multiple text layer to count character, words, and paragraphs."
+    );
     return;
   } else {
     var textAsLayer = text.stringValue();
