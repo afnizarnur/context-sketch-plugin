@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afnizarnur/context.git"
+    "url": "git+https://github.com/afnizarnur/context-sketch-plugin.git"
   },
   "scripts": {
     "build": "skpm-build",
@@ -28,9 +28,9 @@
   },
   "author": "Afnizar Nur Ghifari <afnizarhilmi@gmail.com>",
   "bugs": {
-    "url": "https://github.com/afnizarnur/context/issues"
+    "url": "https://github.com/afnizarnur/context-sketch-plugin/issues"
   },
-  "homepage": "https://github.com/afnizarnur/context#readme",
+  "homepage": "https://github.com/afnizarnur/context-sketch-plugin#readme",
   "main": "index.js",
   "dependencies": {},
   "license": "MIT",

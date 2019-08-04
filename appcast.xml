@@ -8,7 +8,7 @@
 		<item>
 			<title>Version 1.0.1</title>
 			<description></description>
-			<enclosure url="https://github.com/afnizarnur/context/archive/master.zip" sparkle:version="1.0.1" />
+			<enclosure url="https://github.com/afnizarnur/context-sketch-plugin/archive/master.zip" sparkle:version="1.0.1" />
 		</item>
 	</channel>
 </rss>

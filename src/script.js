@@ -11,12 +11,12 @@ var container = panelWidth - panelGutter;
 
 var successMessage = [
   "Nice job! You can send it to your writer now.",
-  "Abrakadabra, copied!",
+  "Abracadabra, copied to your pasteboard!",
   "Bon voyage! Your writer is waiting, send to them now.",
   "Roger that, copied to your pasteboard!",
   "Woo-hoo! Really well done. It's copied.",
-  "Nicely done! The values copied.",
-  "Yay! The values copied.",
+  "Nicely done! The values copied to your pasteboard.",
+  "Yay! The values copied to your pasteboard.",
   "Selamat! The values copied to your pasteboard."
 ];
 
@@ -208,7 +208,7 @@ export default function() {
 
   if (!text || text.class() != "MSTextLayer" || context.selection.length > 1) {
     sketch.UI.message(
-      "⚠️ Please select one or multiple text layer to count character, words, and paragraphs."
+      "⚠️ Please select a text layer to count character, words, and paragraphs."
     );
     return;
   } else {
