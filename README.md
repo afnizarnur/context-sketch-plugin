@@ -9,9 +9,10 @@
 
 <div align="center">
     <a href="https://github.com/afnizarnur/context-sketch-plugin">
-      <img src="https://user-images.githubusercontent.com/4648648/60765799-25d40280-a0ca-11e9-933d-96b4bbf53fee.png" />
+      <img src="https://user-images.githubusercontent.com/4648648/62425207-bff78c80-b702-11e9-8758-c32f51b23caa.png" />
     </a>
 </div>
+
 
 ## Installation
 There are two options to install this plugin. First option is to search for Context in [Sketch Runner](http://sketchrunner.com/) or [Sketchpacks](https://sketchpacks.com/). The second option is to download this plugin directly from [GitHub](https://github.com/afnizarnur/context-sketch-plugin/releases) and after that, double click on `Context.sketchplugin` file to install it on your machine.
